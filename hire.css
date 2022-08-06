@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 0 50px;
+}
+.container {
+    padding: 10px 50px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+ul li a {
+    margin-right: 30px;
+}
+.talent {
+    margin-top: -50px;
+}
+.talent img {
+    width: 450px;
+    height: 500px;
+    float: right;
+}
+.test {
+    align-items: center;
+    position: relative;
+    top: 22em;
+    width: 60%;
+    margin-left: 50px;
+}
+.test h1 {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.test p {
+    padding-right: 38%;
+    font-size: 18px;
+    margin-right: 80px;
+    line-height: 1.3em;
+    font-family: sans-serif;
+    margin-top: 30px;
+    
+}
+.test button {
+    margin-top: 30px;
+}
+.but1 {
+    background-color: red;
+    color: white;
+    padding: 10px 50px;
+    font-family: sans-serif;
+    font-size: 16px;
+    border: none;
+    border-bottom-right-radius: 10px;
+}
+.but2 {
+    background-color: grey;
+        color: white;
+        padding: 10px 50px;
+        font-family: sans-serif;
+        font-size: 16px;
+        border: none;
+        border-bottom-right-radius: 10px;
+        margin-left: 10px;
+}
